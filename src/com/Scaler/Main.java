@@ -1,7 +1,5 @@
 package com.Scaler;
-import com.Scaler.ExpressionEvaluator.ExpressionEvaluator;
-import com.Scaler.ExpressionEvaluator.InFixEvaluator;
-
+import com.Scaler.ExpressionEvaluator.*;
 import java.util.*;
 
 public class Main {
