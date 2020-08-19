@@ -8,7 +8,7 @@ abstract public class ExpressionEvaluator {
     protected boolean ApplyBinaryOperator(String operator, String operand1, String operand2)
     {
         Operator currOperatorObj = OperatorFactory.GetOperator(operator);
-        return currOperatorObj.Operate(new String[]{operand1, operand2});
+        return currOperatorObj.Operate(new String[]{operand2, operand1});
     }
 
     protected boolean HasPrecedence(String operator1, String operator2)

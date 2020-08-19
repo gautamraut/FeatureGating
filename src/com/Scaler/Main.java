@@ -15,10 +15,10 @@ public class Main {
     public static void main(String[] args) {
         Map<String, Object> user = new HashMap<String, Object>();
         user.put("age", 28);
-        user.put("gender", "Female");
+        user.put("gender", "\"Female\"");
         user.put("past_order_amount", "5000");
 
-        String expression = "( age > 25 AND gender == Male ) OR ( past_order_amount > 10000 )"; //Assumption is tokens will be space separated
+        String expression = "( age > 25 AND gender == \"Male\" ) OR ( past_order_amount > 10000 )"; //Assumption is tokens will be space separated
         String featureName = "Same Day delivery";
 
         if(isAllowed(expression, featureName, user))

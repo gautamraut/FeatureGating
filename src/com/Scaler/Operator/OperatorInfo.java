@@ -5,9 +5,9 @@ import java.util.*;
 enum OperatorPrecedence {
     GREATER_THAN,
     LESS_THAN,
+    DOUBLE_EQUALS,
     AND,
     OR,
-    DOUBLE_EQUALS,
     LESS_EQUALS,
     GREATER_EQUALS,
     //Add new operator here...
